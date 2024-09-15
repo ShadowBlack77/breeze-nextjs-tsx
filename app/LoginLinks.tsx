@@ -21,4 +21,4 @@ const LoginLinks = () => {
   )
 }
 
-export default LoginLinks
+export default LoginLinks;
