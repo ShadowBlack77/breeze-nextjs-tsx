@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useAuth } from '@/hooks/auth'
 import Loading from './Loading'
@@ -20,4 +20,4 @@ const AppLayout = ({ children }: { children: any }) => {
     )
 }
 
-export default AppLayout
+export default AppLayout;

@@ -61,7 +61,7 @@ export const useAuth = ({ middleware, redirectIfAuthenticated }: { middleware?: 
           throw error;
         }
 
-        setStatus?.(error.response.data.errors);
+        setErrors(error.response.data.errors);
       })
   }
 

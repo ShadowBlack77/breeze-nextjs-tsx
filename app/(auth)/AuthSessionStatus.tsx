@@ -4,7 +4,7 @@ const AuthSessionStatus = ({ status, className, ...props }: { status: string | a
       <div
         className={`${className} font-medium text-sm text-green-600`}
         {...props}>
-        {status}
+        {typeof status === 'object' ? JSON.stringify(status) : status}
       </div>
     )}
   </>

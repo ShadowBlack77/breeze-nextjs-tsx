@@ -1,7 +1,6 @@
 import ApplicationLogo from '@/components/ApplicationLogo'
 import Link from 'next/link'
 import { useAuth } from '@/hooks/auth'
-import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 
 const Navigation = ({ user }: { user: any }) => {
@@ -108,4 +107,4 @@ const Navigation = ({ user }: { user: any }) => {
     )
 }
 
-export default Navigation
+export default Navigation;

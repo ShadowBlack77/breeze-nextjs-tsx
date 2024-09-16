@@ -1,6 +1,4 @@
-import React from 'react'
-
-const Custom404 = () => {
+const NotFoundPage = () => {
   return (
     <div className="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
       <div className="max-w-xl mx-auto sm:px-6 lg:px-8">
@@ -17,4 +15,4 @@ const Custom404 = () => {
   )
 }
 
-export default Custom404
+export default NotFoundPage;
